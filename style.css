@@ -36,6 +36,12 @@ h4{
 
 .border:hover {
     border: 1.5px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.nav-address{
+    padding: 8px;
 }
 
 /* Box 2 */
@@ -99,12 +105,15 @@ h4{
     border: 2px solid orange;
     border-radius: 5px;
     opacity: 1;
-    
-
-
 }
 
 /* Box 4 */
+.nav-signin, .nav-return{
+    padding: 8px;
+
+}
+
+
 span {
     font-size: 0.8rem;
 }
@@ -122,11 +131,13 @@ span {
 .nav-cart {
     font-size: 0.85rem;
     font-weight: 700;
+    padding: 8px;
+
 }
 
 /* Panel */
 .panel {
-    height: 40px;
+    height: 35px;
     background-color: #222f3d;
     display: flex;
     color: white;
@@ -135,9 +146,13 @@ span {
 
 }
 
-.panel-ops p {
+.panel-ops p, .panel-all {
     display: inline;
-    margin-left: 15px;
+    margin-left: 5px;
+    font-weight: 550;
+    padding: 8px;
+    border: 1.5px solid transparent;
+
 }
 
 .panel-ops {
@@ -148,6 +163,14 @@ span {
 .panel-deals {
     font-size: 0.9rem;
     font-weight: 700;
+    padding: 8px;
+    border: 1.5px solid transparent;
+
+}
+.panel-ops p:hover, .panel-all:hover, .panel-deals:hover {
+    border: 1.5px solid white;
+    border-radius: 2px;
+    cursor: pointer;
 }
 
 /* Hero Section */
