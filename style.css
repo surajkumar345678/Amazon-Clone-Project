@@ -183,6 +183,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    cursor: pointer;
 }
 
 .hero-msg {
