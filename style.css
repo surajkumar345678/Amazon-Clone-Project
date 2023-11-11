@@ -176,7 +176,6 @@ span {
 /* Hero Section */
 
 .hero-section {
-    /* background-image: url("./images/hero_image.jpg"); */
     background: linear-gradient(to bottom, transparent 50%, rgba(255, 255, 255, 1)), url('./images/hero_image.jpg');
     background-size: cover;
     height: 56vh;
