@@ -108,7 +108,12 @@ h4{
 }
 
 /* Box 4 */
-.nav-signin, .nav-return{
+
+#flag-text{
+    font-size: 1.1rem;
+}
+
+.nav-signin, .nav-return, .nav-language{
     padding: 8px;
 
 }
