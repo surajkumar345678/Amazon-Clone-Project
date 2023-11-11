@@ -11,7 +11,7 @@ h4{
 
 .navbar {
     height: 60px;
-    background-color: #0f1111;
+    background-color: #131921;
     color: white;
     display: flex;
     align-items: center;
@@ -305,7 +305,7 @@ footer{
     width: 100px;
 }
 .foot-panel4{
-    background-color: #0f1111;
+    background-color: #131921;
     color: white;
     height: 30px;
     padding: 20px;
